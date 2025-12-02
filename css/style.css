@@ -1,0 +1,74 @@
+/* 1° reset css*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+/*2° Estilos gerais*/
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9f8;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+container {
+    max-width: 1100px;
+    margin: 2.2rem;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.2rem;
+    color: #343a40;
+    margin-bottom: 40px;
+}
+
+/*3° Layut da Seção*/
+.testimonial-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+/*4° Estilos do card do Depoimento */
+.testimonial-card{ 
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.07);
+    text-align: centerb ;
+    
+
+}
+
+/*5° Estilos dos Elementos Dentro do card*/
+.testimonial-avatar{
+    width: 80px;
+}
+
+.testimonial-quote{
+    font-size: 1rem;
+    color: 6;
+}
+
+.testimonial-author{
+    display: block;
+}
+
+.testimonial-role{
+    font-size: 0.9rem;
+    color: #adb5bd;
+    margin-top: 5px;
+}
